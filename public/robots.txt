@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Sitemap locations
+Sitemap: https://bellahealthcare.md/sitemap.xml
+Sitemap: https://bellahealthcare.md/sitemap.ts
+
+# Bella Healthcare specific optimization
+User-agent: *
+Allow: /locations/
+Allow: /services/
+Allow: /careers/
+Allow: /blog/
+Allow: /resources/

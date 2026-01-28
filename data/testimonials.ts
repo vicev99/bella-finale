@@ -1,0 +1,38 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Sarah Mitchell',
+    relation: 'Daughter of Margaret Mitchell',
+    rating: 5,
+    testimonial: 'Bella Healthcare gave us peace of mind. Mom looks forward to her caregiver\'s visits, and we can see how much she\'s thriving with their support.',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
+    videoUrl: 'https://youtube.com/embed/placeholder1',
+  },
+  {
+    id: 2,
+    name: 'James Rodriguez',
+    relation: 'Son of Carmen Rodriguez',
+    rating: 5,
+    testimonial: 'Professional, compassionate, and reliable. The caregivers are like family. I can\'t recommend Bella Healthcare enough.',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+    videoUrl: 'https://youtube.com/embed/placeholder2',
+  },
+  {
+    id: 3,
+    name: 'Elizabeth Chen',
+    relation: 'Wife of Robert Chen',
+    rating: 5,
+    testimonial: 'After Robert\'s surgery, Bella Healthcare provided exactly the support we needed. The attention to detail and genuine care was outstanding.',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+    videoUrl: 'https://youtube.com/embed/placeholder3',
+  },
+  {
+    id: 4,
+    name: 'Michael Thompson',
+    relation: 'Son of Dorothy Thompson',
+    rating: 5,
+    testimonial: 'Mom\'s dementia care is in excellent hands. The staff really understands how to communicate and connect with her.',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+    videoUrl: 'https://youtube.com/embed/placeholder4',
+  },
+];
