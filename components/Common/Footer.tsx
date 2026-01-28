@@ -80,8 +80,8 @@ const Footer = () => {
             <h3 className="font-black text-lg mb-6">License Info</h3>
             <div className="bg-blue-900 p-4 rounded-lg mb-4">
               <p className="text-xs font-bold text-yellow-400 mb-2">OHCQ Non-Expiring</p>
-              <p className="text-xs text-gray-300">License: {COMPANY.license.number}</p>
-              <p className="text-xs text-gray-300 mt-2">Issued: {COMPANY.license.issued}</p>
+              <p className="text-xs text-gray-300">License: {COMPANY.licenseNumber}</p>
+              <p className="text-xs text-gray-300 mt-2">Issued: {COMPANY.licenseIssued}</p>
             </div>
             <div className="flex gap-4">
               <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
@@ -115,3 +115,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
