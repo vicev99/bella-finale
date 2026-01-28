@@ -141,3 +141,9 @@ export const CARE_PLAN_STEPS = [
     description: 'Receive a customized care plan and pricing quote delivered instantly.',
   },
 ];
+
+export const SOCIAL_LINKS = [
+  { name: 'Facebook', url: 'https://facebook.com/bellahealthcareservices', icon: 'Facebook' },
+  { name: 'Instagram', url: 'https://instagram.com/bellahealthcareservices', icon: 'Instagram' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/company/bella-healthcare-services', icon: 'Linkedin' },
+];
